@@ -12,30 +12,37 @@ Before using the QR Code Generator, ensure that you have Node.js installed on yo
 
 ### Clone and Set Up
 
-1. Clone or download this repository to your local machine:
-
-   ```shell
+1. Clone or download this repository to your local machine.
+     ```shell
    git clone https://github.com/VishalOjhaa/qr-code-generator-nodejs.git
 
-Navigate to the project directory:
+2. Navigate to the project directory.
+    ```shell
+   cd qr-code-generator-nodejs
 
-cd qr-code-generator-nodejs
-Install project dependencies:
+4. Install project dependencies.
+   ```shell
+   npm install
 
+### Generate QR Codes
 
-npm install
-Generate QR Codes
-Run the generator from the command line:
+4. Run the generator from the command line.
+   ```shell
+   node index.js
 
+5. Follow the prompts to input the URL you want to convert into a QR code.
 
-node index.js
-Follow the prompts to input the URL you want to convert into a QR code.
+6. The resulting QR code image will be saved as "your-qr.png" in the project directory.
 
-The resulting QR code image will be saved as "your-qr.png" in the project directory.
+## Dependencies
 
-Dependencies
 This project relies on the following dependencies:
 
-inquirer: For user input prompts.
-qr-image: For QR code generation.
+- **inquirer**: For user input prompts.
+- **qr-image**: For QR code generation.
+
 Enjoy generating QR codes with this tool!
+
+## Author
+
+Vishal Ojha
